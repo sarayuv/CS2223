@@ -1,0 +1,22 @@
+CS 2223 Homework 2
+Sarayu Vijayanagaram
+
+Lucas:
+    This class generates the Lucas Numbers as asked for in parts 1 and 2 of the homework. I was not able to implement to ratio of successive calculation times properly. The order of growth is O(2^n).
+    What else is Lucas known for? - He is also known for the Reciprocity Laws, which are important concepts in number theory.
+
+
+Sarayu (My Own Sequence):
+    This class generates the numbers for my own sequence as asked for in part 2 of the homework. I was not able to implement to ratio of successive calculation times properly. The order of growth is O(2^n).
+
+Subirach:
+    This file includes my code for part 3. It counts all the 4-element combinations that have the same sum as the rows, columns, etc, and counts all combinations with the sum. It also counts the number of ways every possible sum can be formed (if a number isn't found, it's count is 0). I created this class using 4 methods: count4Combos, countAllCombos, countCombos, and countNumofSum.
+    The sums 32 and 34 can be created with the greatest number of combinations, which is 90. This is interesting because the magic sum for our magic square was 33, which is between 32 aand 34. Also, the number of combinations for each sum seems to increase till 32, then drop at 33, go back up for 34, and then decrease all the way down again.
+    I originally started this homework by creating the magic square as a 2d array, but switched to a 1d array once the hint came out.
+
+Resources I Consulted:
+    https://www.geeksforgeeks.org/introduction-to-backtracking-data-structure-and-algorithm-tutorials/
+    https://www.w3schools.com/java/java_hashmap.asp
+    https://www.geeksforgeeks.org/hashmap-put-method-in-java/
+    https://www.geeksforgeeks.org/hashmap-getordefaultkey-defaultvalue-method-in-java-with-examples/
+     
